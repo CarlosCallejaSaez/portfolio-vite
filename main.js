@@ -81,8 +81,8 @@ const renderHome = () => {
         <h4 class="description"> ${data.description}</h4>
 
       <div class="social">
-      <a href=${data.github} ><img id="github" src="/assets/00github.png" id="github" ></a>
-      <a href=${data.linkedin} ><img id="linkedin" src="./assets/LinkedIn-Icon-Black-Logo.wine.svg" id="linkedin" ></a>
+      <a href=${data.github} ><i class="fa fa-github" style="font-size:48px;"></i></a>
+      <a href=${data.linkedin} ><i class="fa fa-linkedin" aria-hidden="true" style="font-size:48px;"></i></a>
       </div>
       
       
